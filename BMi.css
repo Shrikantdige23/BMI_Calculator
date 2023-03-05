@@ -1,0 +1,41 @@
+body{
+    color: rgb(37, 31, 31);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:-webkit-image-set(rgb(0, 255, 55)) 
+    
+}
+
+span{
+    color: rgb(0, 255, 55);
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background-image:url(download.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: rgb(6, 56, 109) 0px 20px 30px -10px;
+    
+}
+input{
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+button{
+    color: black;
+    padding: 10px;
+    border: 1px solid rgb(235, 222, 220);
+    box-shadow: azure;
+    background: rgb(255, 151, 33);
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
